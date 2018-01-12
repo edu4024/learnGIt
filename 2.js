@@ -1,1 +1,4 @@
-(function(a,b){return a/b})(4,2)
+function persen(name) {
+  alert('hello'+name);
+  return 
+}
