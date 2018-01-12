@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>rectangle</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function Rectangle(w,h){
+        this.width=w;
+        this.height=h;
+      };
+      Rectangle.prototype.getArea = function () {
+        return this.width*this.height;
+      };
+
+      Rectangle.prototype.toString = function () {
+        return 'Rectangle W : '+ this.width +'<br/>' +'H : '+ this.height;
+      };
+
+    var a=new Rectangle(12,4);
+    document.write(a+"<br/>");
+    
+
+    </script>
+  </body>
+</html>
