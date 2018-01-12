@@ -1,1 +1,1 @@
-(function(){return 2})();
+(function(a,b){return a+b})(2,4);
