@@ -1,9 +1,8 @@
 function authenticate(login,pass){
-	if(login =='login'&& pass=='password'){
+	if(login =='login'|| pass=='password'){
 		return "You are logined"
 	}else{
-		return "Login or password is incorrect"
+		return "Login or password is incorrect!!!!"
 	}
-	
-}
 
+}
